@@ -1,0 +1,53 @@
+.box{
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom:30px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(69, 102, 69);
+    text-align: center;
+    border-radius: 30px;
+    
+
+}
+.product{
+    margin-left: 20px;
+}
+.box h1{
+    font-size:40px;
+}
+.box img{
+    width:90%;
+    height: 48%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.box p{
+    font-size: 30px;
+
+    
+}
+.box button{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(31, 204, 31);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid green;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+ :hover.mybtn{
+    width: 255px;
+    height: 37px;
+    background-color: rgb(379,200,30);
+ }
+ .box button:active{
+    background-color: red;
+ }
+:hover.box{
+    transform:translate(-10px) scale(1.03);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+

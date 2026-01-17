@@ -1,0 +1,14 @@
+.middle{
+    width: 100vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    overflow-y: scroll;
+    justify-items: center;
+}
+
+@media(max-widht:500px) {
+    .middle{
+    grid-template-columns: 1fr 1fr ;
+}
+}
