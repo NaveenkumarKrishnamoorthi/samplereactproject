@@ -3,9 +3,14 @@ import './Top.css'
 
 function Top() {
   return (
-    <div className='top'>
-        <h1><span>L</span>enovo</h1>
-    </div>
+   <nav>
+    <h1><span id='one'>L</span>enovo</h1>
+    <ul>
+      <li><span>H</span>ome</li>
+      <li><span>A</span>bout Us</li>
+      <li><span>C</span>ontact</li>
+      </ul>
+   </nav>
   )
 }
 

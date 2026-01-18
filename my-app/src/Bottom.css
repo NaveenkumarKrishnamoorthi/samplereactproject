@@ -1,7 +1,6 @@
 .bottom{
-    width: 100vw;
-    height: 10vh;
     background-color: green;
+    padding: 10px;
     p{
         display: flex;
         align-items: center;

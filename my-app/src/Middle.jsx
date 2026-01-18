@@ -10,7 +10,12 @@ function Middle() {
   return (
 
     <>
-    <div className='middle'>
+    
+      <div className='search'>
+      <input type="text" placeholder='Search' /> 
+      <button id='mybtn1'> Search Product</button>
+      </div>
+      <div className='middle'>
     <Product data={pname1}></Product>
      <Product data={pname2}></Product>
       <Product ></Product>
